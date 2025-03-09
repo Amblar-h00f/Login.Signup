@@ -1,0 +1,18 @@
+.card-body {
+    border: 1px solid black;
+    width: 300px;
+    
+    
+ }
+ 
+ .img-container img {
+    max-width: 100%;
+    height: auto;
+    justify-items: auto;
+ }
+ 
+ .card-body p, .card-body h1 {
+    margin: 8px;
+    align-items: center;
+ }
+
