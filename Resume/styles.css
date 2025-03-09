@@ -1,0 +1,50 @@
+.contact{
+    background-color: honeydew;
+    border: solid gold;
+    
+}
+
+.h3{
+    font-size: xx-large;
+    
+}
+#picture{
+    text-align: left;
+    width: 40%;
+    height: 0 auto;
+    border: solid black;
+}
+
+.education{
+    background-color: honeydew;
+    border: 2px solid gold;
+    
+}
+.summary{
+    background-color: honeydew;
+    border: 2px solid gold;
+
+
+}
+
+.workexp{
+   background-color: honeydew;
+   border: 2px solid gold;
+
+
+}
+.skills{
+    background-color: honeydew;
+    border: 2px solid gold;
+}
+
+.hI{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: honeydew;
+border: 2px solid gold;
+margin:600px auto;
+
+
+}
