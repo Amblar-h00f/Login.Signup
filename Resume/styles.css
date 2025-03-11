@@ -1,50 +1,88 @@
-.contact{
-    background-color: honeydew;
-    border: solid gold;
-    
-}
+html{
+height: auto;
+font-size: 10px;
+padding-left: 90px;
+padding-top: 90px;
+padding-right: 90px;
+padding-bottom: 90px;
 
-.h3{
-    font-size: xx-large;
+}
+body{
+    font-family: "Noto Sans", sans-serif;
+    background-color: honeydew;
+    color:brown;
     
+
+}
+.Noto-Sans {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:100;
+    font-style: normal;
+    font-variation-settings: 100;
+      
+     }
+  
+
+.contact{
+    position: block;
+    display:inline-flex;
+    border: solid gold;
+    font-weight: 400;
+    font-style: normal;
+   
+ 
+}
+h1{
+    text-align: right;
+
+   
 }
 #picture{
     text-align: left;
-    width: 40%;
+    width: 20%;
     height: 0 auto;
     border: solid black;
 }
-
 .education{
-    background-color: honeydew;
+    
+    float: right;
+    display: inline-flex;
     border: 2px solid gold;
+    width: 400px auto;
+    max-width: 700px;
+    height: 200px;
+    padding-left:2%;
     
 }
-.summary{
-    background-color: honeydew;
-    border: 2px solid gold;
-
-
-}
-
 .workexp{
-   background-color: honeydew;
+   float: left;
+   display: block;
    border: 2px solid gold;
-
+   width: 320px auto;
+   height: 200px;
+   padding-left:2%;
 
 }
 .skills{
-    background-color: honeydew;
+   display: flex;
+   width: 100% auto;
+   height: 200px;
+   border: 2px solid gold; 
+   padding-left: 2%;
+   margin: 1%;
+}
+
+.hobbies{
+
+   
+    float:inline-start;
+    width: 90% auto;
+    max-width: 1200px;
+    height: 1000%;
     border: 2px solid gold;
-}
-
-.hI{
-    display: flex;
     justify-content: center;
-    align-items: center;
-background-color: honeydew;
-border: 2px solid gold;
-margin:600px auto;
-
-
+    margin: auto;
 }
+
+
